@@ -4,11 +4,15 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
+import { BoardComponent } from './components/board/board.component';
+import { PlaysideComponent } from './components/playside/playside.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BoardComponent,
+    PlaysideComponent
   ],
   imports: [
     BrowserModule,

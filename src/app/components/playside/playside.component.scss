@@ -1,0 +1,22 @@
+.playside {
+    position: absolute;
+    top: 25%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 50%;
+    height: 50%;    
+    background: #ffb833;
+    text-align: center;
+    color: #ffffff;
+}
+
+.playerside {
+    left: 0;
+    border-right: 1px solid #000000;
+}
+
+.dealerside {
+    left: 50%;
+    border-left: 1px solid #000000;
+}
